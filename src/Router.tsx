@@ -8,8 +8,8 @@ const Router = () =>{
                 
                  <BrowserRouter>
                       <Route path = "/" exact component ={FormOne}/>
-                      <Route path = "/formtwo" exact component ={FormTwo}/>
-                      <Route path = "/formthree" exact component ={FormThree}/>
+                      <Route path = "/step2"  component ={FormTwo}/>
+                      <Route path = "/step3" component ={FormThree}/>
                  </BrowserRouter>
               )  ;
 

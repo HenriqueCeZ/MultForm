@@ -1,12 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
+
+import  Router from './router';
+import {FormProvider} from './contexts/FormContext'
+
 
 
 function App() {
   return (
-    <div>
-    <h1>hELLO World</h1>
-    </div>
+        
+        <FormProvider>
+        <Router/>
+        </FormProvider>
+        
+        
   );
 }
 
